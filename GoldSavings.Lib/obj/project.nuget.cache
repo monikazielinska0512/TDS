@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kY7/RiPY+IMlAwdP8lM82b2xpu154qpGCGIgX6VEy3fqRAr2waBUgRs4OyB/W/ioia+64rYYN6zYRlOfS4AXvg==",
+  "success": true,
+  "projectFilePath": "/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/GoldSavings.Lib.csproj",
+  "expectedPackageFiles": [
+    "/Users/monikazielinska/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

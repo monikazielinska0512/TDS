@@ -1,0 +1,17 @@
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/GoldSavings.Lib
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/GoldSavings.Lib.deps.json
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/GoldSavings.Lib.runtimeconfig.json
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/GoldSavings.Lib.dll
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/GoldSavings.Lib.pdb
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.csproj.AssemblyReference.cache
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.AssemblyInfoInputs.cache
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.AssemblyInfo.cs
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.csproj.CoreCompileInputs.cache
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.dll
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/refint/GoldSavings.Lib.dll
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.pdb
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.genruntimeconfig.cache
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/ref/GoldSavings.Lib.dll
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/obj/Debug/net7.0/GoldSavings.Lib.csproj.CopyComplete

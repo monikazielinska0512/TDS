@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSavings.Lib", "GoldSavings.Lib\GoldSavings.Lib.csproj", "{7989F3D2-AD09-4958-9030-7108C605EC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSavings.Test", "GoldSavings.Test\GoldSavings.Test.csproj", "{6A589625-D482-4282-85AF-006B654B1A3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7989F3D2-AD09-4958-9030-7108C605EC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7989F3D2-AD09-4958-9030-7108C605EC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7989F3D2-AD09-4958-9030-7108C605EC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7989F3D2-AD09-4958-9030-7108C605EC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A589625-D482-4282-85AF-006B654B1A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A589625-D482-4282-85AF-006B654B1A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A589625-D482-4282-85AF-006B654B1A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A589625-D482-4282-85AF-006B654B1A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
