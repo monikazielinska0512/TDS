@@ -10,8 +10,8 @@ public class Tasks
         Task2();
         Task3();
         Task4();
-        // Task8();
-        // Task9();
+        Task8();
+        Task9();
         // Task12();
         // Task13();
     }
