@@ -14,6 +14,7 @@ public class Tasks
         Task9();
         Task12();
         Task13();
+
     }
 
     public static List<GoldPrice> ReadPricesByDate(DateTime startDate, DateTime endDate)
