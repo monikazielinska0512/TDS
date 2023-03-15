@@ -4,11 +4,18 @@
     <projectFile>GoldSavings/GoldSavings.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361e0f71-7663-4b7c-b14f-03c38bbbda5f" name="Changes" comment="" />
+    <list default="true" id="361e0f71-7663-4b7c-b14f-03c38bbbda5f" name="Changes" comment="hotfix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,22 +26,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/monikazielinska/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/Users/monikazielinska/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/Users/monikazielinska/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/monikazielinska/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/monikazielinska/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/monikazielinska/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Static Method.GoldSavings.Tasks.Task13">
     <configuration name="GoldSavings" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -154,13 +161,34 @@
       <updated>1678909097477</updated>
       <workItem from="1678909098579" duration="6038000" />
     </task>
+    <task id="LOCAL-00001" summary="hotfix">
+      <created>1678916181755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916181755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfix" />
   </component>
 </project>
