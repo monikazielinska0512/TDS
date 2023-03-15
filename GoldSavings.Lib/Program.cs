@@ -10,10 +10,10 @@ public class Tasks
         Task2();
         Task3();
         Task4();
-        Task8();
-        Task9();
-        Task12();
-        Task13();
+        // Task8();
+        // Task9();
+        // Task12();
+        // Task13();
     }
 
     public static List<GoldPrice> ReadPricesByDate(DateTime startDate, DateTime endDate)
@@ -96,80 +96,80 @@ public class Tasks
         List<GoldPrice> goldPrices2020 = ReadPricesByDate(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31));
         List<GoldPrice> goldPrices2021 = ReadPricesByDate(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31));
         List<GoldPrice> goldPrices2022 = ReadPricesByDate(new DateTime(2022, 01, 01), new DateTime(2022, 12, 31));
-
+    
         IEnumerable<double> prices2020 = from listPrices in goldPrices2020 select listPrices.Price;
         double average2020 = prices2020.ToList().Average();
-
+    
         IEnumerable<double> prices2021 = from listPrices in goldPrices2021 select listPrices.Price;
         double average2021 = prices2021.ToList().Average();
-
+    
         IEnumerable<double> prices2022 = from listPrices in goldPrices2022 select listPrices.Price;
         double average2022 = prices2022.ToList().Average();
-
+    
         Console.WriteLine("Average 2019: " + average2020);
         Console.WriteLine("Average 2020: " + average2021);
         Console.WriteLine("Average 2021: " + average2022);
     }
-
+    
     public static void Task9()
     {
         List<GoldPrice> goldPrices2019 = ReadPricesByDate(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31));
         List<GoldPrice> goldPrices2020 = ReadPricesByDate(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31));
         List<GoldPrice> goldPrices2021 = ReadPricesByDate(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31));
         List<GoldPrice> goldPrices2022 = ReadPricesByDate(new DateTime(2022, 01, 01), new DateTime(2022, 12, 31));
-
+    
         goldPrices2019.AddRange(goldPrices2020);
         goldPrices2019.AddRange(goldPrices2021);
         goldPrices2019.AddRange(goldPrices2022);
-
+    
         IEnumerable<GoldPrice> ascendingList =
             from listPrices in goldPrices2019
             orderby listPrices.Price ascending
             select listPrices;
-
+    
         List<GoldPrice> lowestDay = ascendingList.Take(1).ToList();
         Console.WriteLine("Best day to buy: " + lowestDay[0].Date);
-
+    
         IEnumerable<GoldPrice> descendingList =
             from listPrices in goldPrices2019
             orderby listPrices.Price descending
             select listPrices;
-
+    
         List<GoldPrice> highestDay = descendingList.Take(1).ToList();
         Console.WriteLine("Best day to sell: " + highestDay[0].Date);
         Console.WriteLine("The return of investment: " + (highestDay[0].Price - lowestDay[0].Price));
     }
-
-    public static void Task12()
-    {
-        List<GoldPrice> goldPrices2019 = ReadPricesByDate(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31));
-        List<GoldPrice> goldPrices2020 = ReadPricesByDate(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31));
-        List<GoldPrice> goldPrices2021 = ReadPricesByDate(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31));
-        List<GoldPrice> goldPrices2022 = ReadPricesByDate(new DateTime(2022, 01, 01), new DateTime(2022, 12, 31));
-
-        goldPrices2019.AddRange(goldPrices2020);
-        goldPrices2019.AddRange(goldPrices2021);
-        goldPrices2019.AddRange(goldPrices2022);
-
-        XDocument file = new XDocument(new XElement("PricesList",
-            from prices in goldPrices2019
-            select new XElement("GoldPrice",
-                new XElement("Date", prices.Date),
-                new XElement("Price", prices.Price)
-            )));
-
-        file.Declaration = new XDeclaration("1.0", "utf-8", "true");
-        file.Save("/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Prices.xml");
-        Console.WriteLine("XML file created.");
-    }
-
-    public static void Task13()
-    {
-        XDocument file =
-            XDocument.Load("/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Prices.xml");
-        foreach (XElement price in file.Root.Elements())
-        {
-            Console.WriteLine("Date: " + price.Element("Date").Value + " Price: " + price.Element("Price").Value);
-        }
-    }
+    //
+    // public static void Task12()
+    // {
+    //     List<GoldPrice> goldPrices2019 = ReadPricesByDate(new DateTime(2019, 01, 01), new DateTime(2019, 12, 31));
+    //     List<GoldPrice> goldPrices2020 = ReadPricesByDate(new DateTime(2020, 01, 01), new DateTime(2020, 12, 31));
+    //     List<GoldPrice> goldPrices2021 = ReadPricesByDate(new DateTime(2021, 01, 01), new DateTime(2021, 12, 31));
+    //     List<GoldPrice> goldPrices2022 = ReadPricesByDate(new DateTime(2022, 01, 01), new DateTime(2022, 12, 31));
+    //
+    //     goldPrices2019.AddRange(goldPrices2020);
+    //     goldPrices2019.AddRange(goldPrices2021);
+    //     goldPrices2019.AddRange(goldPrices2022);
+    //
+    //     XDocument file = new XDocument(new XElement("PricesList",
+    //         from prices in goldPrices2019
+    //         select new XElement("GoldPrice",
+    //             new XElement("Date", prices.Date),
+    //             new XElement("Price", prices.Price)
+    //         )));
+    //
+    //     file.Declaration = new XDeclaration("1.0", "utf-8", "true");
+    //     file.Save("/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Prices.xml");
+    //     Console.WriteLine("XML file created.");
+    // }
+    //
+    // public static void Task13()
+    // {
+    //     XDocument file =
+    //         XDocument.Load("/Users/monikazielinska/RiderProjects/GoldSavings/GoldSavings.Lib/Prices.xml");
+    //     foreach (XElement price in file.Root.Elements())
+    //     {
+    //         Console.WriteLine("Date: " + price.Element("Date").Value + " Price: " + price.Element("Price").Value);
+    //     }
+    // }
 }
